@@ -7,103 +7,108 @@
     position: relative;
     display: flex;
     flex-direction: column;
-}
-
-.form {
-    font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    background-color: #313338;
-    width: 510px;
-    height: 408px;
-    padding: 16px;
-    box-sizing: border-box;
-    zoom: 100%;
-    color: white;
-    border-radius: 7px;
-    h1{
-        text-align: center;
-        margin-top: 15px;
-        color: #F2F3F5;
-        zoom: 75%;
-    }
-    .motto{
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    .form {
         font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        color: #9A9FA6;
-        text-align: center;
-        margin-top: 5px;
-        margin-bottom: 23px;
-    }
-    input{
-        font-family: 'Open Sans', sans-serif;
-        
-        background-color: #1E1F22;
-        outline: none;
+        position: absolute;
+        max-width: 510px;
+        width: 80%;a
+        top: 40%;
+        left: 50%;            
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        background-color: #313338;
+        width: 510px;
+        height: auto;
+        padding: 16px;
+        box-sizing: border-box;
+        zoom: 100%;
         color: white;
-        margin-top: 10px;
-        padding: 10px;
-        border-bottom: #1E1F22;
-        border-right: #1E1F22;
-        margin-left: 15px;
-        margin-right: 15px;
+        border-radius: 7px;
         
-    }
-    .passTxt{
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 700;
-        color: #9A9FA6;
-        margin-top: 20px;
-        zoom: 75%;
-        margin-left: 20px;
-    }
-    .credentialText{
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 700;
-        color: #9A9FA6;
-        zoom: 75%;
-        margin-left: 20px;
-    }
-    .forgotPass{
-        margin-top: -10px;
-        color: #00A7FB;
-        text-decoration: none;
-        margin-left: 15px;
-    }
-    button{
-        color: #FAFAFF;
-        background-color: #5865F2;
-        border-top: #5865F2;
-        border-left: #5865F2;
-        border-right: #5865F2;
-        border-bottom: #5865F2;
-        outline: none;
-        cursor: pointer;
-        transition:0.3s;
-        border-radius: 3px;
-        font-family: 'Open Sans', sans-serif;
-        padding: 10px;
-        margin-bottom: 10px;
-        margin-left: 15px;
-        margin-right: 15px;
-        font-size: 16px;
-
-        &:hover{
-            background-color: #4650be;
+        h1{
+            text-align: center;
+            margin-top: 15px;
+            color: #F2F3F5;
+            zoom: 75%;
         }
-    }
-    .register{
-        color: #00A7FB;
-        text-decoration: none;
-    }
-    .registerTxt{
-        margin-left: 15px;
-        color: #9A9FA6;
-    }
+        .motto{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            color: #9A9FA6;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 23px;
+        }
+        input{
+            font-family: 'Open Sans', sans-serif;
+            
+            background-color: #1E1F22;
+            outline: none;
+            color: white;
+            margin-top: 10px;
+            padding: 10px;
+            border-bottom: #1E1F22;
+            border-right: #1E1F22;
+            margin-left: 15px;
+            margin-right: 15px;
+            
+        }
+        .passTxt{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            color: #9A9FA6;
+            margin-top: 20px;
+            zoom: 75%;
+            margin-left: 20px;
+        }
+        .credentialText{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            color: #9A9FA6;
+            zoom: 75%;
+            margin-left: 20px;
+        }
+        .forgotPass{
+            margin-top: -10px;
+            color: #00A7FB;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+        button{
+            color: #FAFAFF;
+            background-color: #5865F2;
+            border-top: #5865F2;
+            border-left: #5865F2;
+            border-right: #5865F2;
+            border-bottom: #5865F2;
+            outline: none;
+            cursor: pointer;
+            transition:0.3s;
+            border-radius: 3px;
+            font-family: 'Open Sans', sans-serif;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 16px;
 
+            &:hover{
+                background-color: #4650be;
+            }
+        }
+        .register{
+            color: #00A7FB;
+            text-decoration: none;
+        }
+        .registerTxt{
+            margin-left: 15px;
+            color: #9A9FA6;
+        }
+
+    }
 }
-
