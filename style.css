@@ -20,7 +20,7 @@
   flex-direction: column;
   background-color: #313338;
   width: 510px;
-  height: 408px;
+  height: auto;
   padding: 16px;
   box-sizing: border-box;
   zoom: 100%;
