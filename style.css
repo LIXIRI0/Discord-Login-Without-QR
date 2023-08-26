@@ -8,11 +8,16 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
-
-.form {
+.container .form {
   font-family: "Open Sans", sans-serif;
   position: absolute;
+  max-width: 510px;
+  width: 80%;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -27,13 +32,13 @@
   color: white;
   border-radius: 7px;
 }
-.form h1 {
+.container .form h1 {
   text-align: center;
   margin-top: 15px;
   color: #F2F3F5;
   zoom: 75%;
 }
-.form .motto {
+.container .form .motto {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #9A9FA6;
@@ -41,7 +46,7 @@
   margin-top: 5px;
   margin-bottom: 23px;
 }
-.form input {
+.container .form input {
   font-family: "Open Sans", sans-serif;
   background-color: #1E1F22;
   outline: none;
@@ -53,7 +58,7 @@
   margin-left: 15px;
   margin-right: 15px;
 }
-.form .passTxt {
+.container .form .passTxt {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #9A9FA6;
@@ -61,20 +66,20 @@
   zoom: 75%;
   margin-left: 20px;
 }
-.form .credentialText {
+.container .form .credentialText {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #9A9FA6;
   zoom: 75%;
   margin-left: 20px;
 }
-.form .forgotPass {
+.container .form .forgotPass {
   margin-top: -10px;
   color: #00A7FB;
   text-decoration: none;
   margin-left: 15px;
 }
-.form button {
+.container .form button {
   color: #FAFAFF;
   background-color: #5865F2;
   border-top: #5865F2;
@@ -92,14 +97,14 @@
   margin-right: 15px;
   font-size: 16px;
 }
-.form button:hover {
+.container .form button:hover {
   background-color: #4650be;
 }
-.form .register {
+.container .form .register {
   color: #00A7FB;
   text-decoration: none;
 }
-.form .registerTxt {
+.container .form .registerTxt {
   margin-left: 15px;
   color: #9A9FA6;
 }/*# sourceMappingURL=style.css.map */
